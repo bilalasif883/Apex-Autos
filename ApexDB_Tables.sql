@@ -94,6 +94,27 @@ CREATE TABLE Feedback (
     FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
 );
 
+--Car Sales Audit
+CREATE TABLE CarSalesAudit (
+    AuditID INT IDENTITY(1,1) PRIMARY KEY,
+    CarName VARCHAR(100),
+    Make VARCHAR(100),
+    Model VARCHAR(100),
+    RecordedAt DATETIME DEFAULT GETDATE()
+);
+
+--Employee Audit
+CREATE TABLE EmployeeAudit (
+    AuditID INT PRIMARY KEY IDENTITY(1,1),
+    EmployeeID INT,
+    Name NVARCHAR(100),
+    Contact NVARCHAR(20),
+    Position NVARCHAR(50),
+    BranchID INT,
+    ActionType NVARCHAR(10),        
+    ActionDate DATETIME DEFAULT GETDATE()
+);
+
 
 -- Sample Data --
 
