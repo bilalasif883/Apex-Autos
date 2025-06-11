@@ -41,4 +41,34 @@ FROM Employees E
 JOIN Branches B ON E.BranchID = B.BranchID
 GROUP BY B.BranchName;
 
+--trigger for employee audit
+CREATE TRIGGER dlt_emp
+ON Employees
+AFTER DELETE
+AS
+BEGIN
+    INSERT INTO EmployeeAudit (EmployeeID, Name, Contact, Position, ActionType)
+    SELECT 
+        EmployeeID,
+        Name,
+        Contact,
+        Position,
+        'DELETE'
+    FROM deleted;
+END;
+
+--trigger for car audit
+CREATE TRIGGER dlt_car
+ON Cars
+AFTER DELETE
+AS
+BEGIN
+    INSERT INTO CarSalesAudit (CarName, Make, Model)
+    SELECT 
+        Make + ' ' + Model AS CarName,
+        Make,
+        Model
+    FROM deleted;
+END;
+
 
