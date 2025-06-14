@@ -1,0 +1,16 @@
+C:\Users\Bilal\source\repos\Apex_Autos\ApexAutos\ApexAutos\bin\Debug\ApexAutos.exe.config
+C:\Users\Bilal\source\repos\Apex_Autos\ApexAutos\ApexAutos\bin\Debug\ApexAutos.exe
+C:\Users\Bilal\source\repos\Apex_Autos\ApexAutos\ApexAutos\bin\Debug\ApexAutos.pdb
+C:\Users\Bilal\source\repos\Apex_Autos\ApexAutos\ApexAutos\obj\Debug\ApexAutos.csproj.AssemblyReference.cache
+C:\Users\Bilal\source\repos\Apex_Autos\ApexAutos\ApexAutos\obj\Debug\ApexAutos.Dashboard.resources
+C:\Users\Bilal\source\repos\Apex_Autos\ApexAutos\ApexAutos\obj\Debug\ApexAutos.Login.resources
+C:\Users\Bilal\source\repos\Apex_Autos\ApexAutos\ApexAutos\obj\Debug\ApexAutos.Properties.Resources.resources
+C:\Users\Bilal\source\repos\Apex_Autos\ApexAutos\ApexAutos\obj\Debug\ApexAutos.csproj.GenerateResource.cache
+C:\Users\Bilal\source\repos\Apex_Autos\ApexAutos\ApexAutos\obj\Debug\ApexAutos.csproj.CoreCompileInputs.cache
+C:\Users\Bilal\source\repos\Apex_Autos\ApexAutos\ApexAutos\obj\Debug\ApexAutos.exe
+C:\Users\Bilal\source\repos\Apex_Autos\ApexAutos\ApexAutos\obj\Debug\ApexAutos.pdb
+C:\Users\Bilal\source\repos\Apex_Autos\ApexAutos\ApexAutos\obj\Debug\ApexAutos.exe.config
+C:\Users\Bilal\source\repos\Apex_Autos\ApexAutos\ApexAutos\obj\Debug\ApexAutos.ShowroomForm.resources
+C:\Users\Bilal\source\repos\Apex_Autos\ApexAutos\ApexAutos\obj\Debug\ApexAutos.Staff.resources
+C:\Users\Bilal\source\repos\Apex_Autos\ApexAutos\ApexAutos\obj\Debug\ApexAutos.Customer.resources
+C:\Users\Bilal\source\repos\Apex_Autos\ApexAutos\ApexAutos\obj\Debug\ApexAutos.Sales_Purchase.resources
