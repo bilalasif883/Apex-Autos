@@ -1,53 +1,61 @@
+# 🚗 ApexAutos - Car Dealership Management System
 
-# ApexAutos - Car Dealership Management System - Database
-
-## 👥 Group Members
-
-| Name              | Student ID     |
-|-------------------|----------------|
-| Muhammad Bilal       | 241914       |
-| Muhammad Talha     | 241890      |
+ApexAutos is a comprehensive relational database and desktop application designed to streamline operations at a car dealership. Built using **Microsoft SQL Server** and **C# Windows Forms**, it enables users to manage customers, staff, vehicles, suppliers, sales, purchases, payments, and service records effectively.
 
 ---
 
-## 📘 Description
+## 👨‍💻 Group Members
 
-ApexAutos is a relational database system built using Microsoft SQL Server to manage a car dealership's operations. It covers various entities like customers, employees, suppliers, cars, sales, payments, feedback, and service records.
-
-The project demonstrates:
-
-- Entity-Relationship modeling
-- Normalized schema (3NF)
-- SQL-based CRUD operations
-- A functional frontend using **C# Windows Forms**
+| Name               | Student ID |
+|--------------------|------------|
+| Muhammad Bilal     | 241914     |
+| Muhammad Talha     | 241890     |
 
 ---
 
-## 🛠 Setup Instructions
+## 📚 Project Features
 
-### 1. 📦 Restore the Database
+- 📋 Manage Cars, Customers, Employees, and Suppliers
+- 💰 Handle Sales and Purchase Transactions
+- 🔧 **Normalized Relational Schema (3NF)**
+- 💾 **SQL Server 2019+ compatible schema and sample data**
+- 💻 **Windows Forms (WinForms) GUI frontend**
+- 📋 **CRUD operations** for all major entities
+- 📈 **Sales & Purchase Management**
+- 🧾 **Customer and Supplier Records**
+- 🧰 **Service History and Feedback Tracking**
 
-You can restore the database using following method:
+---
 
-#### 💻 Using `.sql` Script
+## 📦 Technologies Used
 
-1. Open the `.sql` script file in SSMS.
-2. Execute the script to:
-   - Create the `ApexAutosDB` database
-   - Create all tables with relationships
-   - Insert sample data
+- **Microsoft SQL Server**
+- **SQL Server Management Studio (SSMS)**
+- **C# (Windows Forms)**
+- **.NET Framework**
 
-### 2. 🧪 Run Sample Queries
+---
 
-You can try these test queries to check your setup:
+## 🔧 Setup Instructions
 
-```sql
--- List all available cars
-SELECT * FROM Cars WHERE Status = 'Available';
+### 🗃 1. Restore the Database
 
--- Show total sales by each employee
-SELECT EmployeeID, SUM(AmountPaid) AS TotalSales FROM Sales GROUP BY EmployeeID;
+#### Option A: Using `.sql` Script
 
--- Fetch all customer feedback
-SELECT * FROM Feedback;
+1. Open SQL Server Management Studio (SSMS).
+2. Load the `ApexAutos_DB.sql` file from the project directory.
+3. Execute the script to:
+   - Create the `ApexAutos_DB` database
+   - Create all required tables, constraints, and relationships
+   - Insert sample seed data
+## 💻 Visual Studio Project Setup
+
+> Ensure SQL Server is installed and running before starting.
+
+### Prerequisites
+
+- **Visual Studio 2019 or later**
+- **.NET Framework 4.7.2 or later**
+- **SQL Server LocalDB or SQL Server Express**
+
 
