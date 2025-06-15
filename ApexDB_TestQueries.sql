@@ -1,5 +1,7 @@
 USE ApexAutos_DB;
 
+---- Sample "CRUD" Quries -----
+
 -- Add a new customer
 INSERT INTO Customers (Name, Contact, Email, CNIC)
 VALUES ('Adeel Khan', '03009998888', 'adeel@example.com', '35206-1234567-1');
@@ -53,4 +55,3 @@ SELECT
 FROM Employees E
 JOIN Branches B ON E.BranchID = B.BranchID
 GROUP BY B.BranchName;
-

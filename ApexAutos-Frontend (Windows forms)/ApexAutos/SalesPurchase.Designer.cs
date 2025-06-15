@@ -211,7 +211,8 @@
             this.Controls.Add(this.dataGridViewSP);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Sales_Purchase";
-            this.Text = "Sales_Purchase";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Apex Autos - Sales_Purchase";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSP)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

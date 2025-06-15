@@ -166,7 +166,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridViewCars);
             this.Controls.Add(this.cmbBranch);
-            this.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ShowroomForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
